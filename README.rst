@@ -2,6 +2,6 @@
 Coding Practice
 ###############
 
-Check out this `relative link`_.
+.. _k&r: K&R/index.rst
 
-.. _relative link: docs/otherdoc.rst
+ `C Programming Language, 2nd Edition <k&r>`_.
