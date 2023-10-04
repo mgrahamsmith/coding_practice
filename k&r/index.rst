@@ -5,3 +5,13 @@ C Programming Language, 2nd Edition
 *******************************
 Notes and Solutions on the text
 *******************************
+
+=========
+Exercises
+=========
+
+* `1-1`_.
+* `1-2`_.
+
+.. _1-1: ex1-1.c
+.. _1-2: ex1-2.c
