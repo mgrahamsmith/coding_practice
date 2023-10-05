@@ -1,4 +1,4 @@
-/* Section 1.4  Symbolic Constants:
+/* Section 1.4  Symbolic Constants
 ... It's bad practice to bury "magic numbers" like 300 and 20 in a program;
 they convey little information to someone who might have to read the program later,
 and they are hard to change in a systematic way.  One way to deal with magic
