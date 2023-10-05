@@ -23,19 +23,28 @@ main()
 
 /* Output:
 >sec1-5-1.exe
+d
+d
 asdf
 asdf
-hello,world
-hello,world
-asdfasdfasdf
-asdfasdfasdf
-5
-5
-6
-6
-7
-7
-7asldfkjhalskdjfhalsdfjkh'
-7asldfkjhalskdjfhalsdfjkh'
-^C
+2345234527345'
+2345234527345'
+hello world
+hello world
+
+/*
+
+
+/* More compact version:
+#include <stdio.h>
+
+/* copy input to output; 1st version /
+main()
+{
+    int c;
+
+    while ((c = getchar()) != EOF ) {
+        putchar(c);
+    }
+}
 */
