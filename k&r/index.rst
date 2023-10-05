@@ -18,6 +18,7 @@ Exercises
 * `Exercise 1-5`_
 * `Section 1.4`_
 * `Section 1.5.1`_
+* `Exercise 1-6`_
 
 .. _Exercise 1-1: ex1-1.c
 .. _Exercise 1-2: ex1-2.c
@@ -26,3 +27,4 @@ Exercises
 .. _Exercise 1-5: ex1-5.c
 .. _Section 1.4: sec1-4.c
 .. _Section 1.5.1: sec1-5-1.c
+.. _Exercise 1-6: ex1-6.c
