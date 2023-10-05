@@ -20,8 +20,8 @@ Exercises
 
 .. _Exercise 1-1: ex1-1.c
 .. _Exercise 1-2: ex1-2.c
-.. _Exercise 1-3: ex1-2.c
-.. _Exercise 1-4: ex1-2.c
-.. _Exercise 1-5: ex1-2.c
+.. _Exercise 1-3: ex1-3.c
+.. _Exercise 1-4: ex1-4.c
+.. _Exercise 1-5: ex1-5.c
 .. _Section 1.4: sec1-4.c
 .. _Section 1.5.1: sec1-5-1.c
