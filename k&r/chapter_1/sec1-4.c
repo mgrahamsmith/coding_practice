@@ -3,7 +3,13 @@
 they convey little information to someone who might have to read the program later,
 and they are hard to change in a systematic way.  One way to deal with magic
 numbers is to give them meaningful names.  A #define line defines a *symbolic name*
-or *symbolic constant* to be a particular string of characters. */
+or *symbolic constant* to be a particular string of characters. 
+
+    #define    name    replacement text
+    
+Thereafter, any occurance of name (not in quotes and not part of another
+name) will be replaced by the corresponding replacement text
+*/
 
 #include <stdio.h>
 
