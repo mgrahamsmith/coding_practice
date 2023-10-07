@@ -31,4 +31,4 @@ Chapter 1
 .. _Section 1.5.1: chapter_1/sec1-5-1.c
 .. _Exercise 1-6: chapter_1/ex1-6.c
 .. _Exercise 1-7: chapter_1/ex1-7.c
-.. _Exercise 1-7: chapter_1/ex1-8.c
+.. _Exercise 1-8: chapter_1/ex1-8.c
