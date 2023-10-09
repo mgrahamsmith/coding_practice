@@ -1,12 +1,11 @@
 ###############
 Coding Practice
 ###############
+Repository for textbook code examples and problem solutions.
 
-***************************************
-`C Programming Language, 2nd Edition`_. 
-***************************************
-Brian W. Kernighan, Dennis M. Ritchie
+*********
+Textbooks
+*********
+* *C Programming Language, 2nd Edition*, by Brian W. Kernighan, Dennis M. Ritchie: `Notes and solutions`_.
 
-Notes and Solutions on the text
-
-.. _C Programming Language, 2nd Edition: k&r/README.rst
+.. _Notes and solutions: k&r/README.rst
