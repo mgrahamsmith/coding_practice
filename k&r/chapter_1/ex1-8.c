@@ -1,8 +1,10 @@
-/* Exercise 1-8.  Write a program to count blanks, tabs, and newlines. */
+/// 
+/// Exercise 1-8.  Write a program to count blanks, tabs, and newlines.
+/// 
 
 #include <stdio.h>
 
-/* count characters in input; 1st version */
+// count characters in input; 1st version
 main()
 {
     long nc;
@@ -13,9 +15,10 @@ main()
     printf("%1d\n", nc);
 }
 
-/* Output:
->ex1-8.exe
-asdf
-5       // Exited with Ctrl-C
-
-*/
+/// 
+/// Output:
+/// 
+/// >ex1-8.exe
+/// asdf
+/// 5       // Exited with Ctrl-C
+/// 

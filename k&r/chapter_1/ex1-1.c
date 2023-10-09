@@ -1,5 +1,7 @@
-/* Exercise 1-1.  Run the "hello, world" program on your system.  Experiment
-with leaving out parts of the program, to see what error messages you get. */
+/// 
+/// Exercise 1-1.  Run the "hello, world" program on your system.  Experiment
+/// with leaving out parts of the program, to see what error messages you get.
+/// 
 
 #include <stdio.h>
 
@@ -8,8 +10,9 @@ main()
     printf("hello, world\n");
 }
 
-/* Output:
->ex1-1.exe
-hello, world
-
-*/
+/// 
+/// Output:
+///
+/// >ex1-1.exe
+/// hello, world
+/// 
