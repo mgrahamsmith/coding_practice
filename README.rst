@@ -6,6 +6,9 @@ Repository for textbook code examples and problem solutions.
 *********
 Textbooks
 *********
-* *C Programming Language, 2nd Edition*, by Brian W. Kernighan, Dennis M. Ritchie: `Notes and solutions`_.
+
+* Kernighan, Brian, and Dennis Ritchie. *The C Programming Language.* Prentice Hall, 1978. Second Edition, 1988. ISBN 0131103628.
+
+    * `Notes and solutions`_.  
 
 .. _Notes and solutions: k&r/README.rst
