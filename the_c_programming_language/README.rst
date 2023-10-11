@@ -11,16 +11,17 @@ Notes and Solutions on the text.
 Chapter 1
 --------------------------------------------------------------------------------
 
-* `Exercise 1-1`_
-* `Exercise 1-2`_
-* `Exercise 1-3`_
-* `Exercise 1-4`_
-* `Exercise 1-5`_
-* `Section 1.4`_
-* `Section 1.5.1`_
-* `Exercise 1-6`_
-* `Exercise 1-7`_
-* `Exercise 1-8`_
+* `Exercise 1-1`_: Run the "hello, world" program on your system.  Experiment with leaving out parts of the program, to see what error messages you get.
+* `Exercise 1-2`_: Experiment to find out what happens when printf's argument string contains \c, where c is some character not listed above.
+* `Exercise 1-3`_: Modify the temperature conversion program to print a heading above the table.
+* `Exercise 1-4`_: Write a program to print the corresponding Celsius to Fahrenheit table.
+* `Exercise 1-5`_: Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.
+* `Section 1.4`_: Symbolic Constants
+* `Section 1.5.1`_: File Copying
+* `Exercise 1-6`_: Verify that the expression getchar() != EOF is 0 or 1.
+* `Exercise 1-7`_: Write a program to print the value of EOF.
+* `Exercise 1-8`_: Write a program to count blanks, tabs, and newlines.
+* `Exercise 1-9`_: Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank.
 
 .. _Exercise 1-1: chapter_1/ex1-1.c
 .. _Exercise 1-2: chapter_1/ex1-2.c
@@ -32,3 +33,4 @@ Chapter 1
 .. _Exercise 1-6: chapter_1/ex1-6.c
 .. _Exercise 1-7: chapter_1/ex1-7.c
 .. _Exercise 1-8: chapter_1/ex1-8.c
+.. _Exercise 1-9: chapter_1/ex1-9.c
