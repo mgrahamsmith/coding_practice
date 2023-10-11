@@ -11,4 +11,4 @@ Textbooks
 
    * `Notes and solutions`_.  
 
-.. _Notes and solutions: k&r/README.rst
+.. _Notes and solutions: the_c_programming_language/README.rst
