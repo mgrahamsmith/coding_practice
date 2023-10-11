@@ -9,8 +9,6 @@ Repository for textbook code examples, problem solutions, and notes.
 Textbooks
 --------------------------------------------------------------------------------
 
-* Kernighan, Brian, and Dennis Ritchie. *The C Programming Language.*
+* `Solutions and Notes`_: Kernighan, Brian, and Dennis Ritchie. *The C Programming Language.*
 
-   * `Notes and solutions`_.  
-
-.. _Notes and solutions: the_c_programming_language/README.rst
+.. _Solutions and Notes: the_c_programming_language/README.rst
