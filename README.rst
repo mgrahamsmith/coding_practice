@@ -1,7 +1,7 @@
 ###############
 Coding Practice
 ###############
-Repository for textbook code examples and problem solutions.
+Repository for textbook code examples, problem solutions, and notes.
 
 *********
 Textbooks
