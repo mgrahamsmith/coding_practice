@@ -1,3 +1,4 @@
+////////////////////////////////////////////////////////////////////////////////
 ///
 /// Section 1.5.1  File Copying
 ///
@@ -8,6 +9,7 @@
 ///         output the character just read
 ///         read a character
 ///
+////////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
 
@@ -23,6 +25,22 @@ main()
     }
 }
 
+// More compact version of the same program:
+
+// #include <stdio.h>
+// 
+// // copy input to output
+// main()
+// {
+//     int c;
+// 
+//     while ((c = getchar()) != EOF ) {
+//         putchar(c);
+//     }
+// }
+
+////////////////////////////////////////////////////////////////////////////////
+///
 /// Output:
 ///     >sec1-5-1.exe
 ///     d
@@ -33,17 +51,5 @@ main()
 ///     2345234527345'
 ///     hello world
 ///     hello world
-
-/// More compact version:
 ///
-/// #include <stdio.h>
-/// 
-/// // copy input to output
-/// main()
-/// {
-///     int c;
-/// 
-///     while ((c = getchar()) != EOF ) {
-///         putchar(c);
-///     }
-/// }
+////////////////////////////////////////////////////////////////////////////////
