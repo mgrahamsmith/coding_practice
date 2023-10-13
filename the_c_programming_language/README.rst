@@ -25,6 +25,9 @@ Chapter 1
 * `Section 1.5.2 Example`_: Character Counting
 * `Section 1.5.3 Example`_: Line Counting
 * `Exercise 1-10`_: Write a program to copy its input to its output, replacing each tab by \t, each backspace by \b, and each backslash by \\.  This makes tabs and backspaces visible in an unambiguous way.
+* `Section 1.5.4 Example`_: Word Counting
+* `Exercise 1-11`_: How would you test the word count program?  What kinds of input are most likely to uncover bugs if there are any?
+* `Exercise 1-12`_: Write a program that prints its input one word per line.
 
 .. _Exercise 1-1: chapter_1/ex1-1.c
 .. _Exercise 1-2: chapter_1/ex1-2.c
@@ -40,3 +43,6 @@ Chapter 1
 .. _Section 1.5.2 Example: chapter_1/sec1-5-2.c
 .. _Section 1.5.3 Example: chapter_1/sec1-5-3.c
 .. _Exercise 1-10: chapter_1/ex1-10.c
+.. _Section 1.5.4 Example: chapter_1/sec1-5-4.c
+.. _Exercise 1-11: chapter_1/ex1-11.c
+.. _Exercise 1-12: chapter_1/ex1-12.c

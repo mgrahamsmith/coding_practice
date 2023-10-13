@@ -2,7 +2,7 @@
 ///
 /// Section 1.5.2  Character Counting
 ///
-/// The next program counts characters; it is similar to the copy program.
+/// This program counts characters; it is similar to the copy program.
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -37,6 +37,7 @@ main()
 ////////////////////////////////////////////////////////////////////////////////
 ///
 /// Output:
+///
 ///     >sec1-5-2.exe
 ///     asdfalksjfha
 ///     13

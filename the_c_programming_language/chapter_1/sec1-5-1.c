@@ -2,7 +2,7 @@
 ///
 /// Section 1.5.1  File Copying
 ///
-/// A program that copies its inputs to its output one character at a time:
+/// This program copies its inputs to its output one character at a time:
 /// 
 ///     read a character
 ///     while (character is not end-of-file indicator)
