@@ -1,2 +1,7 @@
+# Windows build
 *.exe
 *.obj
+
+# Linux build
+*.out
+
