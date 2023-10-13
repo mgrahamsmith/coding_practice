@@ -4,7 +4,9 @@
 /// each tab by \t, each backspace by \b, and each backslash by \\.  This makes
 /// tabs and backspaces visible in an unambiguous way.
 ///
-/// NOTE: This porgram does not yet succeed in printing \b for backspace output.
+/// NOTE: This porgram does not succeed in printing \b for backspace output.
+/// It wont work for most terminals which are in "cooked tty mode" by default. 
+/// The backspace is consumed by the tty deriver before it gets to the program.
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
