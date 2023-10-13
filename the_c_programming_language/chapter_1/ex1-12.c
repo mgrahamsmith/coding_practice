@@ -9,7 +9,7 @@
 #define IN  1   // inside a word
 #define OUT 0   // outside a word
 
-// count lines, words, and characters in input
+// copy input to output, printing only one word per line.
 main()
 {
     int c, nc, state;
