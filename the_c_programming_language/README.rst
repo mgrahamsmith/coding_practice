@@ -16,7 +16,7 @@ Chapter 1
 * `Exercise 1-3`_: Modify the temperature conversion program to print a heading above the table.
 * `Exercise 1-4`_: Write a program to print the corresponding Celsius to Fahrenheit table.
 * `Exercise 1-5`_: Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.
-* `Section 1.4`_: Symbolic Constants
+* `Section 1.4 Example`_: Symbolic Constants
 * `Section 1.5.1 Example`_: File Copying
 * `Exercise 1-6`_: Verify that the expression getchar() != EOF is 0 or 1.
 * `Exercise 1-7`_: Write a program to print the value of EOF.
@@ -37,6 +37,6 @@ Chapter 1
 .. _Exercise 1-7: chapter_1/ex1-7.c
 .. _Exercise 1-8: chapter_1/ex1-8.c
 .. _Exercise 1-9: chapter_1/ex1-9.c
-.. _Section 1.5.2: chapter_1/sec1-5-2.c
-.. _Section 1.5.3: chapter_1/sec1-5-3.c
+.. _Section 1.5.2 Example: chapter_1/sec1-5-2.c
+.. _Section 1.5.3 Example: chapter_1/sec1-5-3.c
 .. _Exercise 1-10: chapter_1/ex1-10.c
