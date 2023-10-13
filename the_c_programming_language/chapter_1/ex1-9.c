@@ -7,21 +7,21 @@
 
 #include <stdio.h>
 
-// copy input to output 
 main()
 {
     int c;
 
-    c = getchar();
-    while (c != EOF ) {
+    while ((c = getchar()) != EOF ) {
 
-        // If ' ' is encountered, keep reading input chars until non ' ' is found,
-        // exiting the loop.
+        // Print the first blank detected
+        if (c == ' ')
+            putchar(c);
+
+        // Skip all immediately following blanks
         while (c == ' ')
             c = getchar();
 
         putchar(c);
-        c = getchar();
     }
 }
 
@@ -29,4 +29,12 @@ main()
 ///
 /// Output:
 ///
+///     >ex1-9.exe
+///     asdfasdf      a sdf               adfdf f f f f
+///     asdfasdf a sdf adfdf f f f f
+///     
+///     >ex1-9.exe
+///     a  s    d      f dfgsdfg                             sdfggg   g e    d
+///     a s d f dfgsdfg sdfggg g e d
+///     
 ////////////////////////////////////////////////////////////////////////////////
