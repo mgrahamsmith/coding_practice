@@ -4,7 +4,7 @@ The C Programming Language, 2nd Edition
 
 Kernighan, Brian, and Dennis Ritchie. *The C Programming Language.* Prentice Hall, 1978. Second Edition, 1988. ISBN 0131103628.
 
-Notes and Solutions on the text.
+Solutions and notes on the text.
 
 .. contents::
 
