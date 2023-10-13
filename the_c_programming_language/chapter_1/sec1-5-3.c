@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 ///
-/// Section 1.5.2  Line Counting
+/// Section 1.5.3  Line Counting
 ///
 /// The next program counts input lines. ... the standard library ensures that
 /// an input text stream appears as a sequence of lines, each terminated by a
@@ -19,6 +19,8 @@ main()
     while ((c = getchar()) != EOF)
         if (c == '\n')
             ++nl;
+
+    printf("%d\n", nl);
 }
 
 
@@ -26,4 +28,14 @@ main()
 ///
 /// Output:
 ///
+///     >.\sec1-5-3.exe
+///     asdfhalskdfha
+///     sdfa
+///     sdf
+///     asdfasldfhlehfasdf
+///     adsf
+///     a
+///     sdf
+///     asdf7
+///     
 ////////////////////////////////////////////////////////////////////////////////
