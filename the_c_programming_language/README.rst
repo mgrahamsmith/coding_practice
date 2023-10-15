@@ -11,6 +11,8 @@ Examples provided by the text are named 'Section X.X.X Example' and solutions to
 exercises are named 'Exercise X-X' accordingly.  They are presented in the same
 order as the text.
 
+    In Windows, to signal EOF from command prompt: :code:`Ctrl-Z` :code:`Enter`
+
 .. contents::
 
 Chapter 1
@@ -33,6 +35,7 @@ Chapter 1
 * `Section 1.5.4 Example`_: Word Counting
 * `Exercise 1-11`_: How would you test the word count program?  What kinds of input are most likely to uncover bugs if there are any?
 * `Exercise 1-12`_: Write a program that prints its input one word per line.
+* `Section 1.6 Example`_: Word Counting
 
 .. _Exercise 1-1: chapter_1/ex1-1.c
 .. _Exercise 1-2: chapter_1/ex1-2.c
