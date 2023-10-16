@@ -1,6 +1,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 ///
-/// Exercise 1.13 
+/// Exercise 1.13  Write a program to print a histogram of the lengths of words
+/// in its input.  It is easy to draw the histogram with the bars horizontal;
+/// a vertical orientation is more challenging.
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -9,25 +11,26 @@
 #define IN  1   // inside a word
 #define OUT 0   // outside a word
 
-// copy input to output, printing only one word per line.
+// count lines, words, and characters in input
+// TODO: make it work.
 main()
 {
-    int c, nc, state;
+    int c, nl, nw, nc, state;
 
-    nc = state = 0;
+    state = OUT;
+    nl = nw = nc = 0;
     while ((c = getchar()) != EOF) {
+        ++nc;
+        if (c == '\n')
+            ++nl;
         if (c == ' ' || c == '\n' || c == '\t')
             state = OUT;
         else if (state == OUT) {
             state = IN;
-            if (nc > 0)         // Don't print newline before first word
-                putchar('\n');  // Reached end of word, print new line.
-            ++nc;
+            ++nw;
         }
-        if (state == IN) // Print while still inside a word
-            putchar(c);
     }
-    putchar('\n');  // Last newline for clean output
+    printf("%d %d %d\n", nl, nw, nc);
 }
 
 ////////////////////////////////////////////////////////////////////////////////
