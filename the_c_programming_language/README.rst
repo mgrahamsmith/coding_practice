@@ -11,7 +11,8 @@ Examples provided by the text are named 'Section X.X.X Example' and solutions to
 exercises are named 'Exercise X-X' accordingly.  They are presented in the same
 order as the text.
 
-    In Windows, to signal EOF from command prompt: :code:`Ctrl-Z` :code:`Enter`
+    In Windows, to signal EOF from command prompt: :code:`Ctrl-Z` + :code:`Enter`
+    In Linux, to signal EOF from command prompt: :code:`Ctrl-D``
 
 .. contents::
 
