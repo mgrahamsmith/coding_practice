@@ -1,13 +1,11 @@
 ================================================================================
-General Notes
+Vocabulary
 ================================================================================
 
-General notes and information on programming topics.
+Common terms in programming.
 
-.. contents::
 
-Vocabulary
---------------------------------------------------------------------------------
+.. contents ::
 
 
 Methods / Member Functions
