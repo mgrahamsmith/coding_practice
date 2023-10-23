@@ -30,4 +30,4 @@ In C++, class methods are referred to as `member functions <https://en.cpprefere
     member-function-call:
     object_name.member-function-name ( argument-list )
 
-    Stroustrup: Programming – Principles and Practice Using C++ (Second Edition). Addison-Wesley. 2014. ISBN 978-0321-992789.
+    \B. Stroustrup: Programming – Principles and Practice Using C++ (Second Edition). Addison-Wesley. 2014. ISBN 978-0321-992789.
