@@ -8,7 +8,7 @@ Repository for textbook code examples, problem solutions, and notes.
 
 General Notes
 --------------------------------------------------------------------------------
-* `General Notes. <notes.rst>
+* See `<notes/README.rst>`_
 
 Textbooks
 --------------------------------------------------------------------------------
