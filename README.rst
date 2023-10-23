@@ -6,9 +6,6 @@ Repository for textbook code examples, problem solutions, and notes.
 
 .. contents::
 
-General Notes
---------------------------------------------------------------------------------
-* See `<notes/README.rst>`_
 
 Textbooks
 --------------------------------------------------------------------------------
@@ -18,3 +15,8 @@ Textbooks
   * `Solutions and Notes`_.
 
 .. _Solutions and Notes: the_c_programming_language/README.rst
+
+
+Other
+--------------------------------------------------------------------------------
+* `General Notes <notes/README.rst>`_
