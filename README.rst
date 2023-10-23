@@ -19,4 +19,4 @@ Textbooks
 
 Other
 --------------------------------------------------------------------------------
-* `General Notes <notes/README.rst>`_
+* `General Notes <notes/README.rst>`_: General notes and information on programming topics.
