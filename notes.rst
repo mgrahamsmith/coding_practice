@@ -2,7 +2,7 @@
 General Notes
 ================================================================================
 
-General notes and info on programming topics.
+General notes and information on programming topics.
 
 .. contents::
 
