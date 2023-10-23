@@ -23,7 +23,7 @@ In C++, class methods are referred to as `member functions <https://en.cpprefere
         
         vector<double> v; // start off empty; that is, v has no elements
         v.push_back(2.7); // add an element with the value 2.7 at end (“the back”) of v
-                        // v now has one element and v[0]==2.7
+                          // v now has one element and v[0]==2.7
 
     Note the syntax for a call of push_back(). It is called a *member function* call; push_
     back() is a member function of vector and must be called using this dot notation:
