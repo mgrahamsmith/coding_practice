@@ -9,4 +9,4 @@ General notes and information on programming topics.
 Topics
 --------------------------------------------------------------------------------
 
-* `Vocabulary <vocab.rst>`_.
+* `Vocabulary <vocab.rst>`_: Common terms in programming.
