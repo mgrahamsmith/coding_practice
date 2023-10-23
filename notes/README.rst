@@ -20,6 +20,7 @@ In C++, class methods are referred to as `member functions <https://en.cpprefere
 *Example*
 
     ::
+        
         vector<double> v; // start off empty; that is, v has no elements
         v.push_back(2.7); // add an element with the value 2.7 at end (“the back”) of v
                         // v now has one element and v[0]==2.7
@@ -29,4 +30,4 @@ In C++, class methods are referred to as `member functions <https://en.cpprefere
     member-function-call:
     object_name.member-function-name ( argument-list )
 
-    B. Stroustrup: Programming – Principles and Practice Using C++ (Second Edition). Addison-Wesley. 2014. ISBN 978-0321-992789.
+    Stroustrup: Programming – Principles and Practice Using C++ (Second Edition). Addison-Wesley. 2014. ISBN 978-0321-992789.
