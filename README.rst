@@ -6,6 +6,10 @@ Repository for textbook code examples, problem solutions, and notes.
 
 .. contents::
 
+General Notes
+--------------------------------------------------------------------------------
+* `General Notes. <notes.rst>
+
 Textbooks
 --------------------------------------------------------------------------------
 
