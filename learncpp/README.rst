@@ -6,8 +6,16 @@ Examples and practice programs from `learncpp.com <http://www.learncpp.com>`_.
 
 .. contents::
 
-1. Compiler
+1. Compiling and running a C++ Program
 --------------------------------------------------------------------------------
-To compile in Linux::
+Install g++ compiler in (assuming Ubuntu environment)::
+    
+    $ sudo apt install g++
 
-    g++ -std=c++0x example.cpp -o example_program
+Compile the program::
+
+    g++ -o hello_world.out hello_world.cpp
+
+Running the program::
+
+    $./hello_world.out
