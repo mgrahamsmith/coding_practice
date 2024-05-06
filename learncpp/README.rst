@@ -1,8 +1,8 @@
 ================================================================================
-Tutorial From `www.learncpp.com <www.learncpp.com>`_
+Tutorial From `learncpp.com <http://www.learncpp.com>`_
 ================================================================================
 
-Examples and practice programs from `www.learncpp.com <www.learncpp.com>`_.
+Examples and practice programs from `learncpp.com <http://www.learncpp.com>`_.
 
 .. contents::
 
