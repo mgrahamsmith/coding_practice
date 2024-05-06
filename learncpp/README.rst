@@ -6,7 +6,7 @@ Examples and practice programs from `learncpp.com <http://www.learncpp.com>`_.
 
 .. contents::
 
-1. Compiling and running a C++ Program
+Compiling and running a C++ Program
 --------------------------------------------------------------------------------
 Install g++ compiler in (assuming Ubuntu environment)::
     
@@ -19,3 +19,7 @@ Compile the program::
 Running the program::
 
     $./hello_world.out
+
+Build Configurations for GCC/G++ Users 
+--------------------------------------------------------------------------------
+Add `-ggdb` to the command line when debugging and `-O2 -DNDEBUG` for release builds. Use the former for now.
