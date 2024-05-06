@@ -13,7 +13,7 @@ order as the text.
 
     In Windows, to signal EOF from command prompt: :code:`Ctrl-Z` + :code:`Enter`
 
-    In Linux, to signal EOF from Bash shell: :code:`Ctrl-D``
+    In Linux, to signal EOF from Bash shell: :code:`Ctrl-D`
 
 .. contents::
 

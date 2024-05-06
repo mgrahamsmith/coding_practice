@@ -4,9 +4,6 @@ Tutorial From `learncpp.com <http://www.learncpp.com>`_
 
 Examples and practice programs from `learncpp.com <http://www.learncpp.com>`_.
 
-.. contents::
-
-
 Compiling and running a C++ Program
 --------------------------------------------------------------------------------
 Install g++ compiler in (assuming Ubuntu environment)::
