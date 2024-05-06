@@ -22,4 +22,4 @@ Running the program::
 
 Build Configurations for GCC/G++ Users 
 --------------------------------------------------------------------------------
-Add `-ggdb` to the command line when debugging and `-O2 -DNDEBUG` for release builds. Use the former for now.
+Add :code:`-ggdb` to the command line when debugging and :code:`-O2 -DNDEBUG` for release builds. Use the former for now.
