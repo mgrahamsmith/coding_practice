@@ -22,4 +22,11 @@ Running the program::
 
 Build Configurations for GCC/G++ Users 
 --------------------------------------------------------------------------------
+
+Dubug Configuration:
+^^^^^^^^^^^^^^^^^^^^
 Add :code:`-ggdb` to the command line when debugging and :code:`-O2 -DNDEBUG` for release builds. Use the former for now.
+
+Disable Compiler Extensions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+You can disable compiler extensions by adding the :code:`-pedantic-errors` flag to the compile command line.
