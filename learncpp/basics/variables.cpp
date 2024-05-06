@@ -18,7 +18,7 @@ int main()
     // List initialization methods (C++11) (preferred)
     int d { 7 };    // initial value in braces (direct list initialization)
     int e = { 8 };  // initial value in braces after equals sign (copy list initialization)
-    int f {};       // initializer is empty braces (value initialization)
+    int f {};       // initializer is empty braces (value initialization) / zero initialization to value 0
 
     a = 1; // Initialize to avoid warning when printing a
     std::cout << "a: " << a << "\n";
@@ -27,6 +27,10 @@ int main()
     std::cout << "d: " << d << "\n";
     std::cout << "e: " << e << "\n";
     std::cout << "f: " << f << "\n";
+
+    // The following will result in: 'error: narrowing conversion of ‘4.5e+0’ from ‘double’ to ‘int’ [-Wnarrowing]' 
+    // int g { 4.5 }; // error: a number with a fractional value can't fit into an int
+    // std::cout << "g: " << g << "\n";
 
     return 0;
 }
