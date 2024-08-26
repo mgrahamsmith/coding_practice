@@ -1,6 +1,10 @@
 #include <iostream>
 #include <vector>
 
+// TODO: O^2 time currently, find a way to optimize.
+
+int print_array(std::vector<int>& nums);
+
 class Solution {
 public:
     std::vector<int> twoSum(std::vector<int>& nums, int target)
@@ -21,24 +25,11 @@ public:
             }
         }
 
+        // Expected output is lower index first, so swap here since it seems secondVal will always be greater than 
+        // firstVal due to looping scheme.
         return std::vector<int> { secondVal, firstVal };
     }
 };
-
-// Print array contents
-int print_array(std::vector<int>& nums)
-{
-    std::cout << "size = " << nums.size() << "\n";
-    std::cout << "[" << nums[0]; // Print first element
-    for (long unsigned int i = 1; i < nums.size(); i++)
-    {
-        std::cout << ", " << nums[i];
-    };
-    std::cout << "]\n";
-
-    return 0;
-}
-
 
 int main()
 {
@@ -73,5 +64,19 @@ int main()
     result = solution.twoSum(nums, target);
     print_array(result);
     
+    return 0;
+}
+
+// Print array contents
+int print_array(std::vector<int>& nums)
+{
+    std::cout << "size = " << nums.size() << "\n";
+    std::cout << "[" << nums[0]; // Print first element
+    for (long unsigned int i = 1; i < nums.size(); i++)
+    {
+        std::cout << ", " << nums[i];
+    };
+    std::cout << "]\n";
+
     return 0;
 }
