@@ -7,3 +7,8 @@ The product is: 60
 Enter 3 integers: 34 1233 67
 The sum is: 1334
 The product is: 2808774
+
+Enter 3 integers: 345 23
+4
+The sum is: 372
+The product is: 31740
