@@ -1,0 +1,9 @@
+Question #4: Using a std::vector, write a program that asks the user to enter 3 integral values. Print the sum and product of those values.
+
+Enter 3 integers: 3 4 5
+The sum is: 12
+The product is: 60
+
+Enter 3 integers: 34 1233 67
+The sum is: 1334
+The product is: 2808774
